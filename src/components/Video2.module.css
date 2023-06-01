@@ -1,0 +1,30 @@
+
+.video_container{
+    height: 40vh; /* 화면 전체 높이에 맞춤 */
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.video_container__video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+
+.new__video_container__video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+.new__video_container{
+    width:100%;
+    margin: 0 auto;
+    height: 70vh;
+    object-fit: cover;
+    z-index: 2;
+    transition: all 3s ease-in-out;
+}

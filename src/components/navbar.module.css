@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    background-color: transparent;
+    padding: 30px 40px;
+    z-index: 1;
+    font-family:'Helvetica','Noto Sans KR',Arial,Helvetica,san-serif;
+    color:black;
+}
+
+.mainPage{
+    width: 100%;
+}
+
+.navbar__left{
+    width:35%;
+}
+
+.navbar__medium{
+    width:30%;
+}
+
+
+
+
+.navbar__right{
+    width:35%;
+    text-align: right;
+}
+.navbar__right__ul{
+    list-style: none;
+}
+
+.navbar__right__ul__li{
+    margin-right: 1vw;
+    display: inline-block;
+}

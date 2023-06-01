@@ -1,0 +1,119 @@
+@keyframes logoDisapper {
+    0% {
+      opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes logoDisapper2 {
+    0% {
+      opacity:0;
+    }
+    7%{
+        opacity: 0;
+    }
+    25%{
+        opacity:1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes logoApper {
+    0% {
+        opacity:0;
+      }
+      20%{
+          opacity:0;
+      }
+      35% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+  }
+
+.Rcontainer{
+  position: absolute;
+  top: 30rem;
+  display: flex;
+  left: 84%;
+  transform: translate(-50%,-50%);
+  width: 25vw;
+  
+}
+
+.Lcontainer{
+    position: absolute;
+    top: 42%;
+    display: flex;
+    left: 13%;
+    transform: translate(-50%,-50%);
+}
+
+.Lcontainer__logo{
+    opacity: 1;
+    /* animation: logoApper 13s ease-in-out; */
+    color: aliceblue;
+    text-align: left;
+}
+
+
+
+.Rcontainer__logo{
+    cursor: pointer;
+    transition:   opacity 0.3s ease-in-out;
+    opacity: 0;
+    animation: logoDisapper 12s ease-in-out;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.Lcontainer__logo__h{
+font-family:Century Gothic,sans-serif;
+font-size: 50px;
+transition:   font-size 0.5s ease-in-out;
+}
+
+
+
+.Rcontainer__logo__h{
+    font-family:Century Gothic,sans-serif;
+    font-size: 80px;
+}
+
+.Rcontainer__logo__h3{
+    font-family:Century Gothic,sans-serif;
+    font-size: 30px;
+}
+
+.blackText{
+  position: absolute;
+  color: rgb(11, 87, 45);
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+  animation: logoApper 12s ease-in-out;
+  text-align: left;
+  width: 35vw;
+  bottom: 4vh;
+  right: 26vw;
+}
+
+.whiteText{
+display: none;
+}
